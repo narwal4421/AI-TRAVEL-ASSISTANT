@@ -1,0 +1,52 @@
+diff --git a/dashboard.html b/dashboard.html
+new file mode 100644
+index 0000000000000000000000000000000000000000..118a905d185816e487eddb5f16f03499ac351203
+--- /dev/null
++++ b/dashboard.html
+@@ -0,0 +1,46 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8" />
++  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++  <title>Dashboard - AI Travel Assistant</title>
++  <link rel="stylesheet" href="css/style.css" />
++</head>
++<body>
++  <header class="navbar">
++    <h1>Dashboard</h1>
++    <nav>
++      <a href="packages.html" class="btn btn-small">Packages</a>
++      <a href="chatbot.html" class="btn btn-small btn-outline">AI Chatbot</a>
++      <button id="logoutBtn" class="btn btn-small danger">Logout</button>
++    </nav>
++  </header>
++
++  <main class="container dashboard-grid">
++    <section class="card">
++      <h2 id="welcomeText">Hello Traveler!</h2>
++      <p>Use the tools below to build your ideal tour package.</p>
++    </section>
++
++    <section class="card">
++      <h3>Quick Actions</h3>
++      <div class="quick-actions">
++        <a href="packages.html" class="btn">Explore Packages</a>
++        <a href="chatbot.html" class="btn btn-outline">Ask AI Assistant</a>
++      </div>
++    </section>
++
++    <section class="card">
++      <h3>Project Highlights</h3>
++      <ul>
++        <li>Runs 100% offline</li>
++        <li>Uses localStorage for authentication</li>
++        <li>Travel details for 10 countries</li>
++        <li>Offline weather + rule-based AI chatbot</li>
++      </ul>
++    </section>
++  </main>
++
++  <script src="js/app.js"></script>
++</body>
++</html>
