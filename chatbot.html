@@ -1,0 +1,38 @@
+diff --git a/chatbot.html b/chatbot.html
+new file mode 100644
+index 0000000000000000000000000000000000000000..d76c563ac30287fa603fe9e1ad1d6b976613437f
+--- /dev/null
++++ b/chatbot.html
+@@ -0,0 +1,32 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8" />
++  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++  <title>Chatbot - AI Travel Assistant</title>
++  <link rel="stylesheet" href="css/style.css" />
++</head>
++<body>
++  <header class="navbar">
++    <h1>Offline AI Chatbot</h1>
++    <nav>
++      <a href="dashboard.html" class="btn btn-small">Dashboard</a>
++      <a href="packages.html" class="btn btn-small btn-outline">Packages</a>
++    </nav>
++  </header>
++
++  <main class="container">
++    <section class="card chatbot-card">
++      <div id="chatWindow" class="chat-window">
++        <div class="chat-message bot">Hi! I am your offline AI travel assistant. Ask me about cheap, luxury, or specific country trips.</div>
++      </div>
++      <form id="chatForm" class="chat-input-row">
++        <input id="chatInput" type="text" placeholder="Type your question..." required />
++        <button class="btn" type="submit">Send</button>
++      </form>
++    </section>
++  </main>
++
++  <script src="js/app.js"></script>
++</body>
++</html>
