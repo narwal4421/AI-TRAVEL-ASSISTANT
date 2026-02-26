@@ -1,0 +1,112 @@
+[
+  {
+    "country": "Japan",
+    "duration": "7-day plan",
+    "flight": "Round trip from Delhi to Tokyo - Economy",
+    "hotels": [
+      { "name": "Sakura Stay Tokyo", "price": "$110/night", "rating": "4.5" },
+      { "name": "Osaka Central Inn", "price": "$95/night", "rating": "4.3" }
+    ],
+    "sightseeing": ["Mount Fuji", "Tokyo Tower", "Fushimi Inari Shrine"],
+    "totalPrice": "$1,950"
+  },
+  {
+    "country": "France",
+    "duration": "5-day plan",
+    "flight": "Round trip from Mumbai to Paris - Economy",
+    "hotels": [
+      { "name": "Paris Metro Hotel", "price": "$130/night", "rating": "4.4" },
+      { "name": "Lyon Comfort Suites", "price": "$105/night", "rating": "4.2" }
+    ],
+    "sightseeing": ["Eiffel Tower", "Louvre Museum", "Notre-Dame Cathedral"],
+    "totalPrice": "$2,100"
+  },
+  {
+    "country": "Italy",
+    "duration": "7-day plan",
+    "flight": "Round trip from Bengaluru to Rome - Economy",
+    "hotels": [
+      { "name": "Roman Holiday Inn", "price": "$120/night", "rating": "4.3" },
+      { "name": "Venice Canal View", "price": "$140/night", "rating": "4.6" }
+    ],
+    "sightseeing": ["Colosseum", "Leaning Tower of Pisa", "Venice Grand Canal"],
+    "totalPrice": "$2,250"
+  },
+  {
+    "country": "Switzerland",
+    "duration": "5-day plan",
+    "flight": "Round trip from Chennai to Zurich - Economy",
+    "hotels": [
+      { "name": "Zurich Alpine Stay", "price": "$170/night", "rating": "4.7" },
+      { "name": "Geneva Lake Hotel", "price": "$185/night", "rating": "4.8" }
+    ],
+    "sightseeing": ["Jungfraujoch", "Lake Geneva", "Matterhorn"],
+    "totalPrice": "$3,200"
+  },
+  {
+    "country": "Thailand",
+    "duration": "5-day plan",
+    "flight": "Round trip from Kolkata to Bangkok - Economy",
+    "hotels": [
+      { "name": "Bangkok Plaza", "price": "$70/night", "rating": "4.1" },
+      { "name": "Phuket Palm Resort", "price": "$85/night", "rating": "4.2" }
+    ],
+    "sightseeing": ["Phi Phi Islands", "Grand Palace", "Wat Arun"],
+    "totalPrice": "$1,200"
+  },
+  {
+    "country": "United Arab Emirates",
+    "duration": "7-day plan",
+    "flight": "Round trip from Hyderabad to Dubai - Economy",
+    "hotels": [
+      { "name": "Dubai Skyline Hotel", "price": "$210/night", "rating": "4.8" },
+      { "name": "Abu Dhabi Pearl", "price": "$190/night", "rating": "4.6" }
+    ],
+    "sightseeing": ["Burj Khalifa", "Palm Jumeirah", "Sheikh Zayed Mosque"],
+    "totalPrice": "$3,450"
+  },
+  {
+    "country": "Australia",
+    "duration": "7-day plan",
+    "flight": "Round trip from Delhi to Sydney - Economy",
+    "hotels": [
+      { "name": "Sydney Harbor Lodge", "price": "$155/night", "rating": "4.5" },
+      { "name": "Melbourne Art Hotel", "price": "$145/night", "rating": "4.4" }
+    ],
+    "sightseeing": ["Sydney Opera House", "Great Barrier Reef", "Bondi Beach"],
+    "totalPrice": "$2,900"
+  },
+  {
+    "country": "Canada",
+    "duration": "5-day plan",
+    "flight": "Round trip from Mumbai to Toronto - Economy",
+    "hotels": [
+      { "name": "Toronto Maple Inn", "price": "$140/night", "rating": "4.4" },
+      { "name": "Vancouver Bay Suites", "price": "$150/night", "rating": "4.5" }
+    ],
+    "sightseeing": ["Niagara Falls", "Banff National Park", "CN Tower"],
+    "totalPrice": "$2,650"
+  },
+  {
+    "country": "United States",
+    "duration": "7-day plan",
+    "flight": "Round trip from Bengaluru to New York - Economy",
+    "hotels": [
+      { "name": "NYC Midtown Stay", "price": "$190/night", "rating": "4.3" },
+      { "name": "San Francisco Bay Hotel", "price": "$185/night", "rating": "4.4" }
+    ],
+    "sightseeing": ["Statue of Liberty", "Grand Canyon", "Times Square"],
+    "totalPrice": "$3,050"
+  },
+  {
+    "country": "India",
+    "duration": "5-day plan",
+    "flight": "Round trip domestic flight - Economy",
+    "hotels": [
+      { "name": "Agra Heritage Inn", "price": "$60/night", "rating": "4.2" },
+      { "name": "Jaipur Royal Stay", "price": "$75/night", "rating": "4.3" }
+    ],
+    "sightseeing": ["Taj Mahal", "Hawa Mahal", "Gateway of India"],
+    "totalPrice": "$850"
+  }
+]
