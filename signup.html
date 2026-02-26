@@ -1,0 +1,33 @@
+diff --git a/signup.html b/signup.html
+new file mode 100644
+index 0000000000000000000000000000000000000000..77285bb4e013b0898102829f3b0c455527588916
+--- /dev/null
++++ b/signup.html
+@@ -0,0 +1,27 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8" />
++  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++  <title>Sign Up - AI Travel Assistant</title>
++  <link rel="stylesheet" href="css/style.css" />
++</head>
++<body>
++  <main class="auth-wrapper">
++    <form id="signupForm" class="card auth-card">
++      <h2>Create Account</h2>
++      <p>Start using the offline AI Travel Assistant.</p>
++      <label for="signupUsername">Username</label>
++      <input id="signupUsername" type="text" minlength="3" required />
++
++      <label for="signupPassword">Password</label>
++      <input id="signupPassword" type="password" minlength="4" required />
++
++      <button class="btn" type="submit">Sign Up</button>
++      <p class="form-link">Already have an account? <a href="login.html">Login</a></p>
++      <p id="signupMessage" class="message"></p>
++    </form>
++  </main>
++  <script src="js/app.js"></script>
++</body>
++</html>
