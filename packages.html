@@ -1,0 +1,36 @@
+diff --git a/packages.html b/packages.html
+new file mode 100644
+index 0000000000000000000000000000000000000000..cbac6ac1fbf23555a2f29b778b0f7bb840c97b89
+--- /dev/null
++++ b/packages.html
+@@ -0,0 +1,30 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8" />
++  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++  <title>Packages - AI Travel Assistant</title>
++  <link rel="stylesheet" href="css/style.css" />
++</head>
++<body>
++  <header class="navbar">
++    <h1>Travel Packages</h1>
++    <nav>
++      <a href="dashboard.html" class="btn btn-small">Dashboard</a>
++      <a href="chatbot.html" class="btn btn-small btn-outline">AI Chatbot</a>
++    </nav>
++  </header>
++
++  <main class="container">
++    <section class="card selector-card">
++      <label for="countrySelect">Select a country</label>
++      <select id="countrySelect"></select>
++      <p id="weatherDisplay" class="weather-box"></p>
++    </section>
++
++    <section id="packageDetails" class="package-details"></section>
++  </main>
++
++  <script src="js/app.js"></script>
++</body>
++</html>
